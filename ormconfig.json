@@ -4,7 +4,7 @@
     "port": 5432,
     "username": "postgres",
     "password": "admin123",
-    "database": "ideas",
+    "database": "ideas-app",
     "autoSchemaSync": true,
     "logging": true,
     "synchronize": true,
