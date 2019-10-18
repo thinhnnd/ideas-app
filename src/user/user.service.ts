@@ -26,7 +26,7 @@ export class UserService {
                 'Invalid username or password', 
                 HttpStatus.BAD_REQUEST)
         }
-        return user.toResponseObject(false);
+        return user.toResponseObject();
     }
 
     async register(data: UserDTO) : Promise<UserRO> {

@@ -39,7 +39,6 @@ export class UserEntity {
 
     private get token() {
         const {id, username} = this;
-        console.log(process.env.SECRET)
         return jwt.sign(
             {
                 id, username
