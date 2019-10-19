@@ -36,4 +36,5 @@ export class UserController {
     register(@Body() data: UserDTO) {
         return this.userService.register(data);
     }
+
 }
